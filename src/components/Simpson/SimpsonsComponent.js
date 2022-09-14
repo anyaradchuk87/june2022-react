@@ -3,6 +3,7 @@ export default function SimpsonComponent (props) {
     let {itemName, pic, text} = props;
 
 
+
     let classNameItem = 'family';
     return (
         <div className={classNameItem}>

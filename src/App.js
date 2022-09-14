@@ -9,6 +9,7 @@ function App() {
             pic={'https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png'}
             text={'Bartholomew JoJo "Bart" Simpson is a fictional character in the American animated television series The Simpsons and part of the Simpson family.'}
         />
+
         <SimpsonComponent
             itemName={'homer'}
             pic={'https://i.pinimg.com/736x/71/ce/e1/71cee113237e9193098be86266bbde45.jpg'}
