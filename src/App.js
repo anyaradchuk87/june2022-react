@@ -1,5 +1,6 @@
 import './App.css';
 import SimpsonComponent from './components/Simpson/SimpsonsComponent'
+import {users} from './data'
 
 function App() {
   return (
