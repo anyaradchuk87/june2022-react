@@ -1,16 +1,13 @@
-export default function SimpsonComponent (props) {
+import {simpsons} from './data';
+import Simpson from './Simpson';
 
-    let {itemName, pic, text} = props;
+export default function SimpsonsComponent () {
 
-
-
-    let classNameItem = 'family';
     return (
-        <div className={classNameItem}>
-            <h2>{itemName}</h2>
-            <img src={pic}/>
-            <p>{text}</p>
-
+        <div>
+            {
+                simpsons.map((simpson, index) => <Simpson key={index} simpson={simpson}/>)
+            }
         </div>
-    )
+    );
 }
