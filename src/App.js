@@ -1,12 +1,15 @@
 import './App.css';
-import SimpsonsComponent from './components/Simpson/SimpsonsComponent'
+import Characters from './components/characters/Characters'
+
 
 function App() {
-  return (
-      <div className="wrap">
-       <SimpsonsComponent/>
-      </div>
-  );
+
+
+  return (<div>
+
+        <Characters/>
+
+      </div>);
 }
 
 export default App;
